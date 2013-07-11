@@ -5,22 +5,182 @@ title: UI Health Care Style Guide
 <div class="main container">
 	<article>
 		<h1>Styleguide</h1>
-		<p class="leader">Guide to semantic markup &amp; basic usage examples.</p>
+		<p class="lead">Guide to semantic markup &amp; basic usage examples.</p>
 		<h2 class="section-title">Headings</h2>
-		<h1>Heading Level 1</h1>
-		<h2>Heading Level 2</h2>
-		<h3>Heading Level 3</h3>
-		<h4>Heading Level 4</h4>
-		<h5>Heading Level 5</h5>
-		<h6>Heading Level 6</h6>
+		<p>There are six levels of headings from <code>&#8249;h1&#8250;</code> (the most important) to <code>&#8249;h6&#8250;</code> (the least important).</p>
+		<div class="col-group">
+			<div class="col-2-5">
+				<p>First level heading, marked with <code>&#8249;h1&#8250;</code></p>
+			</div>
+			<div class="col-3-5">
+				<h1>Heading Level 1</h1>
+				<p>The heading above is a first-level, heading one that may be used for page titles as well as titles in sectioning elements including <code>&#8249;body&#8250;</code>, <code>&#8249;section&#8250;</code> and <code>&#8249;article&#8250;</code>.</p>
+			</div>
+		</div>
+
+		<div class="col-group">
+			<div class="col-2-5">
+				<p>Second level heading, marked with <code>&#8249;h2&#8250;</code></p>
+			</div>
+			<div class="col-3-5">
+				<h2>Heading Level 2</h2>
+				<p>The heading above is a second-level, heading two that may be used to structure your document .</p>
+			</div>
+		</div>
+		
+		<div class="col-group">
+			<div class="col-2-5">
+				<p>Third, fourth, fifth and sixth level headings; marked up using <code>&#8249;h3&#8250; &#8249;h4&#8250; &#8249;h5&#8250; &#8249;h6&#8250;</code> tags</p>
+			</div>
+			<div class="col-3-5">
+				<h3>Heading Level 3</h3>
+				<h4>Heading Level 4</h4>
+				<h5>Heading Level 5</h5>
+				<h6>Heading Level 6</h6>
+			</div>
+		</div>
+
 
 		<h2 class="section-title">Paragraphs</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit voluptate ducimus iste totam adipisci corporis ipsum vel ipsa dignissimos dolore consequuntur ullam eaque hic ut aspernatur nostrum quia labore repudiandae?</p>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem maxime quibusdam eligendi laborum ex omnis et quasi voluptatibus. Id quo error doloremque ullam tempore aperiam laborum dolor aliquid saepe voluptate?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut eum molestias at obcaecati quisquam tenetur consectetur porro ut quae suscipit atque dolor molestiae distinctio modi earum voluptates iusto. Laboriosam.</p>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero aliquam architecto eligendi eius et at omnis modi pariatur ducimus asperiores quam officia tenetur repellat recusandae fugiat aspernatur minima molestias incidunt.</p>
+		
+		<div class="col-group">
+			<div class="col-2-5">
+				<h2>Regular paragraphs</h2>
+			</div>
+			<div class="col-3-5">
+				<p>University of Iowa Hospitals and Clinics—recognized as one of the best hospitals in the United States—is Iowa's only comprehensive academic medical center and a regional referral center.</p>
+				<p>We are committed to providing patient-focused care—available to every person, around the clock—in an environment devoted to innovative care, excellent service, and exceptional outcomes.</p>
+				<p>In our 2011 fiscal year, we employed 1,432 physicians, residents, and fellows, and 7,482 non-physician employees, including 1,806 professional nurses. We're assisted each year by a dedicated corps of more than 1,300 volunteers.</p>
+				<p>UI Hospitals and Clinics and UI Children's Hospital together deliver quality care in collaboration with University of Iowa Physicians, the state's largest multi-specialty medical and surgical group practice composed of faculty physicians of the <a title="UI Roy J. and Lucille A. Carver College of Medicine" href="http://www.medicine.uiowa.edu/">UI Roy J. and Lucille A. Carver College of Medicine</a>. These partners work together as University of Iowa Health Care, to provide patient care, conduct biomedical research, and train the next generation of health professionals. </p>
 
-		<h2 class="section-title">Blockquote</h2>
-		<blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum aliquam sapiente cupiditate magni quis earum cum tempore dolore eligendi laboriosam asperiores facilis blanditiis inventore enim eum accusantium veniam repellendus! Sapiente!</blockquote>
+			</div>
+		</div>
+		
+		<div class="col-group">
+			<div class="col-2-5">
+				<h2>Lead paragraphs</h2>
+				<p>Adding the class <code>lead</code> to emphasize a paragraph.</p>
+			</div>
+			<div class="col-3-5">
+				<p class="lead">University of Iowa Health Care is a fully integrated academic medical center that includes the UI Roy J. and Lucille A. Carver College of Medicine; UI Hospitals and Clinics; and UI Physicians--each playing a unique role in fulfilling shared missions of patient care, research and education. The leadership team of UI Health Care comprises senior leaders representing each of the three entities.</p>
+			</div>
+		</div>
+
+		<div class="col-group">
+			<div class="col-2-5">
+				<h2>Secondary paragraphs</h2>
+				<p>Adding the class <code>secondary</code> to to alter the appearance - footnotes?.</p>
+			</div>
+			<div class="col-3-5">
+				<p class="secondary">Ridker PM, Libby P. Risk Factors for Atherothrombotic Disease. In: Libby P, Bonow RO, Mann DL, Zipes DP, eds. Braunwald's Heart Disease: A Textbook of Cardiovascular Medicine. 8th ed. Philadelphia, Pa; Saunders Elsevier; 2007: chap 39.</p>
+			</div>
+		</div>
+
+		
+
+		<h2 class="section-title">Quotations</h2>
+		<div class="col-group">
+			<div class="col-2-5">
+				<h2>Blockquote</h2>
+				<p>Content inside a blockquote element must be quoted from another source. If it has address, a <code>cite</code>attribute should present. </p>
+				<p><pre>&lt;blockquote cite=&quot;http://www.quote.com/sample.html&quot;&gt;
+	&lt;p&gt;The quote is input here. &lt;/p&gt;
+&lt;/blockquote&gt;</pre>
+				</p>
+			</div>
+
+			<div class="col-3-5">
+				<blockquote cite="https://en.wikipedia.org/wiki/Style_guide"> 
+					<p>A <b>style guide</b> or <b>style manual</b> is a set of standards for the writing and design of documents, either for general use or for a specific publication, organization or field. The implementation of a style guide provides uniformity in style and formatting within a document and across multiple documents.</p>
+				</blockquote>
+			</div>
+		</div>
+
+		<div class="col-group">
+			<div class="col-2-5">
+				<h2>Pull Quotes</h2>
+				
+			</div>
+
+			<div class="col-3-5">
+				<p>Then, just 12 days after a 7.5-hour transplant surgery, Mason went home to stay.</p>
+				<blockquote class="pull-quote-left">Following his roller-coaster first six months of life, Mason today is an active four-year-old: a big brother to two-year-old sister Lily, a T-ball player, a pizza fanatic, and a loyal Hawkeye fan. The anti-rejection medicines and precautions to prevent infection are part of the family's routine.</blockquote>
+				<p>Trips back to UI Children's Hospital for regular check ups give Mason a chance to see Kinnick Stadium close up.</p>
+				<p>On a recent visit, he offered: "We're gonna go to the field today so I can get bigger and bigger to play in the Hawkeye football stadium."</p>
+				<p>And who else does he plan to see there?</p>
+				<p>"Herky is my favorite in the Iowa Hawkeye stadium."</p>
+				<p>Doctors say that by the time Mason is old enough to see Hawkeye mascot Herky from the student section in Kinnick, he will have to undergo another heart transplant, due to normal developmental changes.</p>
+
+			</div>
+		</div>
+
+		<h2 class="section-title">Lists</h2>
+		<div class="col-group">
+			<div class="col-2-5">
+				<h2>Unordered lists</h2>
+				<p>Unordered lists are marked up using <code>&#8249;ul&#8250;</code> tags. Describes a collection of items in no particular order.</p>
+			</div>
+
+			<div class="col-3-5">
+				<ul>
+					<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </li>
+					<li>Obcaecati ullam eius consequuntur nam eveniet rerum iusto perferendis recusandae minima autem unde quaerat expedita sequi quidem veritatis quasi nisi provident aspernatur.</li>
+					<li>Voluptatem suscipit aut omnis iste soluta neque consectetur et aliquid veritatis est ullam accusantium quos explicabo ipsam harum doloremque deserunt provident voluptates.</li>
+					<li>Rerum molestiae sequi iusto sed maxime quisquam id dolorem deleniti harum voluptates odio.</li>
+					<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo unde incidunt itaque excepturi animi consequatur quos adipisci ab et repudiandae? Praesentium explicabo id labore fugit nobis voluptatibus ab obcaecati esse.</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="col-group">
+			<div class="col-2-5">
+				<h2>Ordered lists</h2>
+				<p>Ordered lists are marked up using <code>&#8249;ol&#8250;</code> tags.Contains information where order should be emphasized, as in a recipe</p>
+			</div>
+
+			<div class="col-3-5">
+				<ol>
+					<li>Mix dry ingredients thoroughly.</li>
+					<li>Pour in wet ingredients.</li>
+					<li>Mix for 10 minutes.</li>
+					<li>Bake for one hour at 300 degrees.</li>
+				</ol>
+			</div>
+		</div>
+
+		<div class="col-group">
+			<div class="col-2-5">
+				<h2>Definition lists</h2>
+				<p>Ordered lists are marked up using <code>&#8249;dl&#8250;</code> element.Consist of a serie of term/definition pairs.</p>
+<pre>
+&lt;DL&gt;
+&lt;DT&gt;&lt;STRONG&gt;Lower cost&lt;/STRONG&gt;
+&lt;DD&gt;The new version of this product costs 
+significantly less than theprevious one!
+&lt;DT&gt;&lt;STRONG&gt;Easier to use&lt;/STRONG&gt;
+&lt;DD&gt;We've changed the product so that it's 
+much easier to use!
+&lt;DT&gt;&lt;STRONG&gt;Safe for kids&lt;/STRONG&gt;
+&lt;DD&gt;You can leave your kids alone in a room
+with this product and they won't get hurt 
+(not a guarantee).
+&lt;/DL&gt;
+</pre>
+			</div>
+
+			<div class="col-3-5">
+				<dl>
+				<dt><strong>Lower cost</strong></dt>
+				<dd>The new version of this product costs significantly less than the previous one!</dd>
+				<dt><strong>Easier to use</strong></dt>
+				<dd>We've changed the product so that it's much easier to use!</dd>
+				<dt><strong>Safe for kids</strong></dt>
+				<dd>You can leave your kids alone in a room with this product and they won't get hurt (not a guarantee).</dd>
+				</dl>
+			</div>
+		</div>
+
+		
 
 		<h2 class="section-title">Inline text elements</h2>
 
@@ -75,36 +235,6 @@ P Q R S T U V W X Y Z [ \ ] ^ _
 p q r s t u v w x y z { | } ~ 
 </pre>
 	
-	<h2 class="section-title">Unordered list</h2>
-	<ul>
-		<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </li>
-		<li>Obcaecati ullam eius consequuntur nam eveniet rerum iusto perferendis recusandae minima autem unde quaerat expedita sequi quidem veritatis quasi nisi provident aspernatur.</li>
-		<li>Voluptatem suscipit aut omnis iste soluta neque consectetur et aliquid veritatis est ullam accusantium quos explicabo ipsam harum doloremque deserunt provident voluptates.</li>
-		<li>Rerum molestiae sequi iusto sed maxime quisquam id dolorem deleniti harum voluptates odio.</li>
-		<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo unde incidunt itaque excepturi animi consequatur quos adipisci ab et repudiandae? Praesentium explicabo id labore fugit nobis voluptatibus ab obcaecati esse.</li>
-	</ul>
-	
-	<h2 class="section-title">Ordered list</h2>
-
-	<ol>
-		<li>Quibusdam perferendis adipisci magni explicabo nam nostrum.</li>
-		<li>Soluta inventore corporis doloremque adipisci rerum iusto eum.</li>
-		<li>Sapiente quam exercitationem sunt doloribus.</li>
-		<li>Maiores magni eligendi asperiores laudantium ratione ipsum possimus doloremque nulla!</li>
-		<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic consequuntur eius pariatur omnis. Quidem quasi temporibus perspiciatis tenetur illo non magnam similique eos libero iure nesciunt deserunt cupiditate dolor. Rerum.</li>
-	</ol>
-	
-	<h2 class="section-title">Definition list</h2>
-	<dl>
-		<dt>Definition List</dt>
-		<dd>A number of connected items or names written or printed consecutively, typically one below the other.</dd>
-	    <dt>This is a term.</dt>
-	    <dd>This is the definition of that term, which both live in a <code>dl</code>.</dd>
-	    <dt>Here is another term.</dt>
-	    <dd>And it gets a definition too, which is this line.</dd>
-	    <dt>Here is term that shares a definition with the term below.</dt>
-	    <dd>And it gets a definition too, which is this line.</dd>
-	</dl>
 
 	<h2 class="section-title">Table</h2>
 	<table>
