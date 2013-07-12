@@ -120,6 +120,43 @@ table.striped tbody tr:nth-child(odd) td {background:#f0f0f0;}
 
 /*****************************************************************************/
 /*
+/* Forms & Buttons
+/*
+/*****************************************************************************/
+
+form li {list-style-type: none;}
+
+button, input[type="submit"], a.button {
+  display:inline-block;
+  padding:.8em 1.8em;
+  margin:0;
+  font-weight: normal;
+  background:#7b7565;
+  color:#fff;
+  border:none;
+  border-radius:3px;
+  font-size:1em;
+  line-height: 1em;
+  text-decoration: none;
+  cursor:pointer;
+  text-shadow:1px 1px 1px rgba(41,99,183, .8) ;
+
+}
+
+button:hover, input[type="submit"]:hover, a.button:hover {
+  background:#666154;
+}
+
+button:active, input[type="submit"]:active, a.button:active {
+  background:#d00;
+}
+
+button.primary, input[type="submit"].primary, a.button.primary {
+  background:#d00;
+  text-shadow:1px 1px 1px rgba(187,0,0, .8) ;
+}
+/*****************************************************************************/
+/*
 /* Layout
 /*
 /*****************************************************************************/
