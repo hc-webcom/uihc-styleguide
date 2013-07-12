@@ -5,6 +5,7 @@ title: UI Health Care Style Guide
 <div class="main container">
 	<article>
 		<h1>Html elements</h1>
+		<!--=========================================================== Headings =========================================================== -->
 		<h2 class="section-title">Headings</h2>
 		<p>There are six levels of headings from <code>&#8249;h1&#8250;</code> (the most important) to <code>&#8249;h6&#8250;</code> (the least important).</p>
 		<div class="col-group">
@@ -39,7 +40,7 @@ title: UI Health Care Style Guide
 			</div>
 		</div>
 
-
+		<!--=========================================================== Paragraphs =========================================================== -->
 		<h2 class="section-title">Paragraphs</h2>
 		
 		<div class="col-group">
@@ -76,7 +77,7 @@ title: UI Health Care Style Guide
 		</div>
 
 		
-
+		<!--=========================================================== Quotations =========================================================== -->
 		<h2 class="section-title">Quotations</h2>
 		<div class="col-group">
 			<div class="col-2-5 summary">
@@ -123,7 +124,7 @@ recusandae et laborum velit accusamus eveniet.
 
 			</div>
 		</div>
-
+		<!--=========================================================== Lists =========================================================== -->
 		<h2 class="section-title">Lists</h2>
 		<div class="col-group">
 			<div class="col-2-5 summary">
@@ -193,7 +194,7 @@ recusandae et laborum velit accusamus eveniet.
 		</div>
 
 		
-
+			<!--=========================================================== Inline elements =========================================================== -->
 		<h2 class="section-title">Inline text elements</h2>
 
 		<p><a href="#">This is a text link</a></p>
@@ -247,7 +248,7 @@ P Q R S T U V W X Y Z [ \ ] ^ _
 p q r s t u v w x y z { | } ~ 
 </pre>
 	
-
+	<!--=========================================================== Tables =========================================================== -->
 	<h2 class="section-title">Tables</h2>
 <div class="col-group">
 	<div class="col-2-5 summary">
@@ -378,6 +379,124 @@ p q r s t u v w x y z { | } ~
 		    </table>
 	</div>
 </div>
+	
+	<!--=========================================================== Forms =========================================================== -->
+	<h2 class="section-title">Forms</h2>
+	<div class="col-group">
+		<div class="col-2-5 summary">
+			<h2>Form Elements</h2>
+		</div>
 
+		<div class="col-3-5 sample">
+			<form>
+				<p>
+					<label for="text">This is a <code>text</code> input: </label>
+					<input type="text" name="text" id="text">
+				</p>
+				<p>
+					<label for="email">This is an <code>email</code> input:</label>
+					<input type="email" name="email" id="email">
+				</p>
+				<p>
+					<label for="url">This is an <code>url</code> input:</label>
+					<input type="url" name="url" id="url">
+				</p>
+				<p>
+					<label for="number">This is a <code>number</code> input:</label>
+					<input type="number" name="number" id="number">
+				</p>
+				<p>
+					<label for="tel">This is a <code>tel</code> input:</label>
+					<input type="tel" name="tel" id="tel">
+				</p>
+
+				<p>
+					<label for="password">This is a <code>password</code> input:</label>
+					<input type="password" name="password" id="password">				
+				</p>
+				<p>
+					<label for="months">This is a <code>select</code>:</label>
+					<select name="months" id="months">
+						<option value="1">January</option>
+						<option value="2">February</option>
+						<option value="3">March</option>
+						<option value="4">April</option>
+						<option value="5">May</option>
+						<option value="6">June</option>
+						<option value="7">July</option>
+						<option value="8">August</option>
+						<option value="9">September</option>
+						<option value="10">October</option>
+						<option value="11">November</option>
+						<option value="12">December</option>
+					</select>
+				</p>
+				<p>
+					<label for="days">This is a multiple <code>select</code>:</label>
+					<select name="days" id="days" multiple="multiple">
+						<option value="1">Sunday</option>
+						<option value="2">Monday</option>
+						<option value="3">Tuesday</option>
+						<option value="4">Wednesday</option>
+						<option value="5">Thursday</option>
+						<option value="6">Friday</option>
+						<option value="7">Saturday</option>
+					</select>
+				</p>
+
+				<p>
+					<label><input type="checkbox" name="ny"> New York</label>
+					<label><input type="checkbox" name="bos"> Boston</label>
+					<label><input type="checkbox" name="sfo"> San Francisco</label>
+					<label><input type="checkbox" name="dc"> Wasington DC</label>
+				</p>
+				<p>
+					<label><input type="radio" name="male" checked> male</label>
+					<label><input type="radio" name="female"> female</label>
+				</p>
+
+			</form>			
+		</div>
+	</div>
+	<h2 class="section-title">Buttons</h2>
+	<p>Buttons are marked up using either <code>&#8249;button&#8250;</code>, <code>&#8249;input&#8250;</code> or <code>&#8249;a&#8250;</code> tags with an additional <code>btn</code> class. Additional classes alter their presentation.</p>
+	<div class="col-group">
+		<div class="col-2-5 summary">
+			<h2>Standard Buttons</h2>
+		</div>
+
+		<div class="col-3-5 sample">
+			<p>
+				<button type="button">Button</button>
+				<input type="submit" value="Submit">
+				<a href="#" class="button">Anchor</a>
+			</p>
+		</div>
+
+		<div class="col-2-5 summary">
+			<h2>Primary Buttons</h2>
+			<p>Add a class of <code>primary</code></p>
+		</div>
+
+		<div class="col-3-5 sample">
+			<p>
+				<button type="button" class="primary">Button</button>
+				<input type="submit" value="Submit" class="primary">
+				<a href="#" class="button primary">Anchor</a>
+			</p>
+		</div>
+	</div>
 	</article>
+
+	<!--
+	<div class="col-group">
+		<div class="col-2-5 summary">
+			
+		</div>
+
+		<div class="col-3-5 sample">
+			
+		</div>
+	</div>
+	-->
 </div>
