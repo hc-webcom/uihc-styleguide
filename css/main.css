@@ -226,6 +226,9 @@ header {background:#000;color:#f0f0f0;}
     }
 }
 
+.categories {list-style: none;}
+.categories li {padding:5px 0;}
+.categories .current {font-weight:bold;}
 /*Navigation*/
 
 .main-nav {list-style-type: none; padding:1em 0;}
