@@ -10,7 +10,7 @@
   		<div class="col-group">
   			<div class="col-1-3 summary">
   				<ul class="categories">
-  					{% for item in site.categories.typography reversed %}
+  					{% for item in site.categories.typography %}
   				        {% if page.title == item.title %}
   				        <li class="current">{{ item.title }}</li>
   				        {% else %}
