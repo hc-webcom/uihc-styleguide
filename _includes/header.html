@@ -3,9 +3,9 @@
 		<h1>UI Health Care styleguide</h1>
 		<nav role="navigation">
 			<ul class="main-nav">
-				<li><a href="{{ site.url }}/index.html">Html Elements</a></li>
+				<li><a href="{{ site.baseurl }}/index.html">Html Elements</a></li>
 					{% for item in site.categories.typography limit:1 %}
-				    	<li><a href="{{ site.url }}{{ item.url }}">Typography</a>
+				    	<li><a href="{{ site.baseurl }}{{ item.url }}">Typography</a>
 					{% endfor %}
 			</ul>
 		</nav>

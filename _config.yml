@@ -1,4 +1,4 @@
 name: UIHC Style Guide
 pygments: true
 permalink: /:categories/:title.html
-url: http://hc-webcom.github.io/uihc-styleguide #this is just for the gh-pages branch 
+baseurl: http://hc-webcom.github.io/uihc-styleguide #this is just for the gh-pages branch run * jekyll serve --watch --baseurl='' * locally
