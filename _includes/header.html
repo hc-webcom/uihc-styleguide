@@ -5,7 +5,7 @@
 			<ul class="main-nav">
 				<li><a href="{{ site.url }}/index.html">Html Elements</a></li>
 					{% for item in site.categories.typography limit:1 %}
-				    	<li><a href="{{ link_path }}{{ item.url }}">Typography</a>
+				    	<li><a href="{{ site.url }}{{ item.url }}">Typography</a>
 					{% endfor %}
 			</ul>
 		</nav>
